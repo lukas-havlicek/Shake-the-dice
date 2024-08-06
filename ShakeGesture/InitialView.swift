@@ -27,7 +27,7 @@ struct InitialView: View {
         .rotationEffect(.degrees(angle), anchor: .bottomTrailing)
         .onAppear {
           self.shake()
-      }
+        }
       Image("6")
         .resizable()
         .frame(width: 15, height: 15)
